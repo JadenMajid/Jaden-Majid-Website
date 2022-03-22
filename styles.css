@@ -116,6 +116,7 @@ a:active {
 
 .project-link {
   border: 2px white;
+  text-decoration: underline;
 }
 
 .page-title {
