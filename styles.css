@@ -5,13 +5,6 @@
   background-color: black;
 }
 
-#main-name {
-  position: relative;
-  top: 20%;
-  margin-top: 20%;
-  margin-bottom: 20px;
-}
-
 .small-line {
   width: 250px;
   height: 4px;
@@ -37,19 +30,21 @@
   position: fixed;
   margin: auto;
   width: 100%;
+  height: 3%;
   bottom: 0;
-  padding: 0.5%;
+  padding: auto;
+  padding-bottom: 1%;
   left: 0;
   background-color: #111111;
 }
 
 .link {
-  padding: 0.1% 0.2% 0.1% 0.2%;
-  text-align: left;
+  padding: 0.1% 0.4% 0.1% 0.4%;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
   transition: 0.2s;
-  margin: 0.1%;
+  margin: 0.2%;
   white-space: nowrap;
 }
 
@@ -59,8 +54,18 @@
 }
 
 #home-links {
-  position: static;
-  background-color: black;
+  position: inherit;
+  background-color: inherit;
+}
+
+#home-text {
+  background-color: hsv(167, 45%, 24%);
+  margin-top: 25vh;
+  padding-top: 10%;
+}
+
+#home-name {
+  position: relative;
 }
 
 #vl {
@@ -69,7 +74,7 @@
   background-color: gray;
   display: inline-block;
   top: 50%;
-  transform: translateY(30%);
+  transform: translateY(25%);
   margin: auto;
 }
 
@@ -127,6 +132,7 @@ a:active {
 .project-link {
   border: 2px white;
   text-decoration: underline;
+  text-align: center;
 }
 
 .page-title {
@@ -153,7 +159,7 @@ ul li.course {
   font-size: larger;
 }
 
-#main-name {
+#home-name {
   -webkit-animation: animation 1000ms linear both;
   animation: animation 1000ms linear both;
 }
