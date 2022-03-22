@@ -97,11 +97,13 @@ a:active {
   display: inline-block;
 }
 
-.project-gif {
+.project-img {
   height: auto;
-  width: 30%;
+  width: 35%;
   clip-path: inset(1% 1%);
   display: inline-block;
+  padding-top: 0;
+  vertical-align: top;
 }
 
 .project-name {
