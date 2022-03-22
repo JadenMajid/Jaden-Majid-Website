@@ -17,15 +17,27 @@ a:link {
   background-color: inherit;
 }
 
-#small-line {
+.small-line {
   width: 250px;
   height: 4px;
   color: black;
   background-color: gray;
   border: 0;
   position: inherit;
+  margin: auto;
   margin-top: 8px;
 }
+
+.smaller-line {
+  width: 100px;
+  height: 4px;
+  background-color: gray;
+  border: 0;
+  position: inherit;
+  margin: auto;
+  margin-top: 8px;
+}
+
 .links {
   position: fixed;
   margin: auto;
@@ -73,24 +85,23 @@ a:active {
 }
 
 .project {
-  padding-bottom: 40px;
-  margin: 30px;
+  padding: 5% 0 5% 0;
   overflow: auto;
+  margin: auto;
 }
 
 .project-text {
   height: auto;
   width: 50%;
-  float: right;
-  margin: auto;
-  padding: 10px;
+  padding: 40px 40px 50px 50px;
+  display: inline-block;
 }
 
 .project-gif {
   height: auto;
-  width: 40%;
-  float: left;
+  width: 30%;
   clip-path: inset(1% 1%);
+  display: inline-block;
 }
 
 .project-name {
@@ -99,9 +110,6 @@ a:active {
 
 .project-description {
   text-align: justify;
-}
-
-.project-tech {
 }
 
 .project-link {
@@ -124,7 +132,7 @@ li {
 }
 
 ul {
-  list-style: "–";
+  list-style: "-";
 }
 
 ul li.course {
