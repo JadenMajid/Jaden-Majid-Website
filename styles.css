@@ -104,7 +104,7 @@ a:active {
 }
 
 .projects {
-
+  margin-bottom: 10vh;
 }
 
 .project {
@@ -119,6 +119,10 @@ a:active {
   padding: 3% 2% 3% 2%;
   display: inline-block;
 }
+.project-date {
+  font-size: small;
+  text-align: right;
+}
 
 .project-img {
   height: auto;
@@ -132,6 +136,7 @@ a:active {
 
 .project-name {
   font-size: 1.5em;
+  margin-bottom: 1vh;
 }
 
 .project-description {
@@ -1124,3 +1129,4 @@ body {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
 }
+
