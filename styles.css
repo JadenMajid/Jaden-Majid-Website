@@ -116,6 +116,8 @@ a:active {
 .project-text {
   height: auto;
   width: 50%;
+  min-width: 50vw;
+  max-width: 90vw;
   padding: 3% 2% 3% 2%;
   display: inline-block;
 }
