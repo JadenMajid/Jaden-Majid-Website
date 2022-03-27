@@ -46,6 +46,10 @@
   white-space: nowrap;
 }
 
+a#email.link{
+  padding-right: .25%;
+}
+
 .link:hover {
   background-color: white;
   color: black;
@@ -80,7 +84,7 @@
 a:link {
   text-decoration: none;
   background-color: inherit;
-  transition: 0;
+  transition: 0.3s;
 }
 
 a:visited {
